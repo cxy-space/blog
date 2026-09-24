@@ -99,7 +99,15 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
+
+# Local Search
+## 供 Butterfly 主题的 local_search 使用，hexo-generator-searchdb 会生成 search.xml
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
