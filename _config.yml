@@ -103,8 +103,8 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-## 本项目由 Vercel 自动构建部署（push 到 GitHub 即触发），
-## 因此这里保持为空，不需要 hexo-deployer 插件。
+## 本项目通过 GitHub Actions 自动构建并发布到 GitHub Pages，
+## 由 Cloudflare 做 CDN 与 DNS，因此这里保持为空，不需要 hexo-deployer 插件。
 deploy:
   type: ''
 
