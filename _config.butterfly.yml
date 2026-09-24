@@ -293,10 +293,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/cxy-space
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来「陈同学的反思台」做客 ☕ 这里记录我的学习笔记与一些零散的思考。
   card_recent_post:
     enable: true
     # If set 0 will show all
