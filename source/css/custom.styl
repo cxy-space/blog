@@ -1,0 +1,106 @@
+/* Project-level visual layer. Keep Butterfly itself upgradeable. */
+:root
+  --blog-ink: #292522
+  --blog-muted: #7b746e
+  --blog-paper: #f7f3ee
+  --blog-surface: rgba(255, 252, 248, .92)
+  --blog-line: #e5d5c8
+  --blog-accent: #c56a3a
+  --blog-accent-dark: #9d4f2b
+  --blog-shadow: 0 16px 45px rgba(76, 55, 40, .08)
+
+body
+  color: var(--blog-ink)
+  background: var(--blog-paper)
+
+#page-header
+  background: linear-gradient(120deg, rgba(35, 30, 27, .9), rgba(107, 66, 45, .78)), url('/img/butterfly-icon.png') center / cover
+  min-height: 62vh
+
+#page-header.full_page
+  min-height: 68vh
+
+#page-header.not-home-page
+  min-height: 280px
+
+#site-title
+  letter-spacing: .04em
+  text-shadow: 0 2px 20px rgba(0, 0, 0, .22)
+
+#site-subtitle
+  color: rgba(255, 248, 240, .84)
+
+#content-inner
+  max-width: 1180px
+
+#recent-posts > .recent-post-item
+  background: var(--blog-surface)
+  border: 1px solid rgba(229, 213, 200, .82)
+  border-radius: 12px
+  box-shadow: var(--blog-shadow)
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease
+
+#recent-posts > .recent-post-item:hover
+  border-color: rgba(197, 106, 58, .45)
+  box-shadow: 0 20px 55px rgba(76, 55, 40, .13)
+  transform: translateY(-3px)
+
+.post-content, #post
+  font-size: 16px
+  line-height: 1.95
+
+.post-content h2, .post-content h3, .post-content h4
+  color: var(--blog-ink)
+  letter-spacing: .02em
+
+.post-content h2
+  border-left: 4px solid var(--blog-accent)
+  padding-left: 12px
+
+.post-content blockquote
+  border-left-width: 4px
+  border-radius: 0 8px 8px 0
+  color: #635a53
+
+.post-content img
+  border-radius: 10px
+  box-shadow: var(--blog-shadow)
+
+.post-copyright
+  border-radius: 10px
+  background: rgba(197, 106, 58, .06)
+
+#aside-content .card-widget
+  border: 1px solid rgba(229, 213, 200, .78)
+  box-shadow: var(--blog-shadow)
+  border-radius: 12px
+
+#aside-content .card-info .author-info__name
+  color: var(--blog-accent-dark)
+
+a
+  color: var(--blog-accent-dark)
+
+a:hover
+  color: var(--blog-accent)
+
+::selection
+  background: #f0c7a5
+  color: var(--blog-ink)
+
+@media (max-width: 768px)
+  #page-header, #page-header.full_page
+    min-height: 56vh
+
+  #page-header.not-home-page
+    min-height: 220px
+
+  #content-inner
+    padding: 24px 16px
+
+  #recent-posts > .recent-post-item
+    border-radius: 10px
+
+  .post-content, #post
+    font-size: 15px
+    line-height: 1.85
