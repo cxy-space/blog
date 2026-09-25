@@ -1,0 +1,11 @@
+{
+  "base": {
+    "homePath": "/"
+  },
+  "tools": ["hitokoto", "express", "photo", "info", "quit"],
+  "drag": {
+    "enable": false,
+    "direction": ["x", "y"]
+  },
+  "switchType": "order"
+}

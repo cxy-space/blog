@@ -11,10 +11,47 @@
 
 body
   color: var(--blog-ink)
-  background: var(--blog-paper)
+
+#web_bg
+  background: linear-gradient(180deg, rgba(245, 228, 236, .12), rgba(247, 243, 238, .54)), url('/img/sakura-background.jpg') center / cover fixed !important
+
+#sakura-canvas
+  position: fixed
+  inset: 0
+  z-index: 1
+  width: 100vw
+  height: 100vh
+  pointer-events: none
+
+#waifu
+  right: 24px
+  z-index: 20
+
+#live2d
+  width: 340px
+  height: 340px
+
+#waifu-tips
+  color: #673c4b
+  background: rgba(255, 251, 253, .94)
+  border-color: rgba(245, 190, 205, .9)
+  box-shadow: 0 6px 18px rgba(57, 26, 41, .12)
+
+#waifu-tool svg
+  fill: #c85c83
+
+#waifu-tool svg:hover
+  fill: #943a5a
+
+#waifu-toggle
+  background: #c85c83
+
+@media (max-width: 768px)
+  #waifu, #waifu-toggle
+    display: none !important
 
 #page-header
-  background: linear-gradient(120deg, rgba(35, 30, 27, .9), rgba(107, 66, 45, .78)), url('/img/butterfly-icon.png') center / cover
+  background: linear-gradient(120deg, rgba(42, 28, 35, .48), rgba(96, 50, 66, .3)), url('/img/sakura-background.jpg') center / cover
   min-height: 62vh
 
 #page-header.full_page
@@ -34,7 +71,8 @@ body
   max-width: 1180px
 
 #recent-posts > .recent-post-item
-  background: var(--blog-surface)
+  background: rgba(255, 252, 250, .86)
+  backdrop-filter: blur(8px)
   border: 1px solid rgba(229, 213, 200, .82)
   border-radius: 12px
   box-shadow: var(--blog-shadow)
@@ -71,6 +109,8 @@ body
   background: rgba(197, 106, 58, .06)
 
 #aside-content .card-widget
+  background: rgba(255, 252, 250, .88)
+  backdrop-filter: blur(8px)
   border: 1px solid rgba(229, 213, 200, .78)
   box-shadow: var(--blog-shadow)
   border-radius: 12px

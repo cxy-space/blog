@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 275" role="img" aria-label="红发红衣的原创女巫少女">
+  <defs>
+    <linearGradient id="robe" x2="1" y2="1"><stop stop-color="#aa294b"/><stop offset="1" stop-color="#621e39"/></linearGradient>
+    <linearGradient id="hair" x2="1" y2="1"><stop stop-color="#a42f49"/><stop offset="1" stop-color="#632038"/></linearGradient>
+  </defs>
+  <path d="M51 83Q41 101 38 157L27 237Q49 266 101 264Q162 265 176 234L160 154Q156 108 143 84Z" fill="url(#hair)" stroke="#4d1d36" stroke-width="3"/>
+  <path d="M71 160Q43 176 33 249Q101 274 169 249Q158 178 130 160Z" fill="url(#robe)" stroke="#4e1d35" stroke-width="3"/>
+  <path d="M75 165L100 195L125 165L137 175L100 225L64 176Z" fill="#fff2ec"/>
+  <path d="M95 192h10v70H95z" fill="#edb6c7"/>
+  <path d="M65 176Q51 190 38 219L17 214Q22 180 58 159Z" fill="#fff2ec" stroke="#772c47" stroke-width="2"/>
+  <path d="M135 176Q148 190 163 218L184 211Q177 177 141 158Z" fill="#fff2ec" stroke="#772c47" stroke-width="2"/>
+  <path d="M13 212q-3 13 9 14l13-7-4-10Z M168 213l15-5q12 15-1 21l-11-4Z" fill="#ffe4d5" stroke="#9a625c" stroke-width="2"/>
+  <path d="M54 103Q58 56 101 55Q147 56 149 104L138 149Q121 172 100 174Q78 171 64 150Z" fill="#ffe2d2" stroke="#9b645c" stroke-width="2"/>
+  <path d="M53 110Q39 67 69 52Q88 37 118 44Q157 51 151 108Q133 101 125 79Q92 105 53 110Z" fill="url(#hair)" stroke="#5c2037" stroke-width="3"/>
+  <path d="M56 98Q54 140 62 161Q52 153 47 128Z M144 97Q153 138 144 161Q155 155 158 127Z" fill="#a7324b"/>
+  <path d="M71 116q12-7 24 0M106 116q13-8 25 0" fill="none" stroke="#713b46" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="84" cy="124" rx="6" ry="8" fill="#8c3049"/><ellipse cx="118" cy="124" rx="6" ry="8" fill="#8c3049"/>
+  <circle cx="86" cy="122" r="2" fill="#fff"/><circle cx="120" cy="122" r="2" fill="#fff"/>
+  <path d="M95 147q6 4 12 0" fill="none" stroke="#b36c72" stroke-width="2" stroke-linecap="round"/>
+  <path d="M34 83L91 16q7-8 13 0l66 67Q99 97 34 83Z" fill="#8b2143" stroke="#4d1d36" stroke-width="4"/>
+  <path d="M25 84Q100 104 177 84L170 99Q100 116 30 99Z" fill="#5c1f3c" stroke="#4d1d36" stroke-width="3"/>
+  <path d="M54 80q48 14 97 0" fill="none" stroke="#e4abb9" stroke-width="6"/>
+  <path d="M99 68l4 7 7 1-6 5 1 7-6-4-7 4 2-7-6-5 8-1Z" fill="#f4d49c"/>
+</svg>

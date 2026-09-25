@@ -96,6 +96,7 @@ footer_img: false
 # Can set it to color, image URL or an array containing colors and/or image URLs
 # If an array is provided, a random background will be selected from the array on each load
 background:
+  /img/sakura-background.jpg
 
 cover:
   # Disable the cover or not
@@ -1080,7 +1081,8 @@ inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <script src="/js/sakura.js"></script>
+    - <script src="/live2d/live2d.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work

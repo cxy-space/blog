@@ -36,6 +36,31 @@ preview.cmd
 
 打开 `http://localhost:4000` 查看效果。修改文章后刷新页面即可。
 
+### VS Code 写作规范
+
+项目已经提供了 VS Code 推荐扩展和 Markdown 代码片段。首次打开项目时，建议安装推荐扩展。
+
+- 新建文章：运行 `write.cmd "文章标题"`
+- 插入文章头：在 Markdown 文件中输入 `hexo-post`，按 `Tab`
+- 插入代码块：输入 `hexo-code`，按 `Tab`
+- 插入图片：输入 `hexo-image`，按 `Tab`
+
+文章顶部的 YAML 区域必须保留在文件最开头，并且由两行 `---` 包围。分类和标签使用数组格式，例如 `categories: [随笔]`、`tags: [Hexo, 写作]`。正文标题从 `##` 开始，不要重复写一级标题。
+
+### 樱花背景与互动角色
+
+博客的樱花视觉效果全部放在项目目录中，不需要修改 Butterfly 主题依赖：
+
+- `source/img/sakura-background.jpg`：实景樱花背景图
+- `source/js/sakura.js`：飘落花瓣动画，可调整 `count` 改变花瓣数量
+- `source/live2d/`：本地 Live2D 运行时、互动配置与 `ariu` 模型资源
+- `source/live2d/live2d.json`：工具栏、拖动与角色加载配置
+- `source/css/custom.styl`：角色尺寸、位置、背景遮罩和毛玻璃样式
+
+当前互动角色是参考站使用的 Allium／`ariu` 免费 Live2D 模型，原发布者标注为 Yuri幽里_official；网页运行组件来自 `LuoTian001/live2d-widget-AIChat`，项目代码按其 MIT License 保留在 `source/live2d/LICENSE`。本站只启用了本地模型、表情、一言、截图、说明和关闭/召回功能，没有连接参考站的 AI 聊天后端。模型仍不是上杉绘梨衣；以后取得有权使用的绘梨衣模型包后，可替换 `source/live2d/model/` 中的模型并更新 `config/model_list.json`。
+
+背景图片来自 Unsplash 图片服务。若以后更换图片，请优先将文件下载到 `source/img/` 后使用本地路径，避免外部链接失效。
+
 ### 发布网站
 
 确认本地预览无误后：
