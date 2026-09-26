@@ -168,8 +168,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 一以贯之的努力
-    - 不可懈怠的人生
+    - 渡人，渡己，渡命。
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
